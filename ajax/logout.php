@@ -1,0 +1,13 @@
+<?php 
+	session_start();
+	unset($_SESSION['posisi_peg']);
+	unset($_SESSION['username_peg']);
+	unset($_SESSION['id_peg']);
+	unset($_SESSION['session_id']);
+	unset($_SESSION['session_tipe']);
+	unset($_SESSION['nama_peg']);
+	unset($_SESSION['session_user']);
+	unset($_SESSION['session_pass']);
+	unset($_SESSION['dept']);
+	unset($_SESSION['cabang']);
+ ?>
